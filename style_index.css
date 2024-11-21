@@ -1,0 +1,258 @@
+body {
+    animation: transitionIn 0.60s;
+    font-family: Arial, sans-serif;
+    margin: 5;
+    padding: 10px;
+    background-color: #d42228;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+nav {
+    background-color: transparent;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav a {
+    font-size: 20px;
+    margin: 0 15px;
+    text-decoration: none;
+    color: rgb(41, 6, 6);
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.slideshow-container {
+    float: left;
+    margin-top: 20px;
+    position: relative;
+    max-width: 800px;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 1.5s ease-in-out;
+    width: 100%;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fade {
+    animation: fade 0.8s;
+}
+
+.fried {
+    float: right;
+    height: 100px;
+    width: 100px;
+    margin-top: 380px;
+}
+
+.h1{
+    float: right;
+    margin-right: 45px;
+    font-size: 45px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(231, 245, 36, 0.781);
+    -webkit-text-stroke: 1px rgb(205, 226, 18);
+    -moz-text-stroke: 1px rgb(224, 55, 3);
+    -webkit-text-fill-color: white;
+    /* Safari */
+    paint-order: stroke fill;
+}
+
+.h2 {
+    float: right;
+    font-family: Arial;
+    color: #fff;
+    font-size: 30px;
+}
+
+.tagline {
+    float: right;
+    margin-top: 50px;
+    height: 200px;
+    width: 290px;
+}
+
+
+
+.button {
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+    border: 2px solid yellow;
+    margin-right: 300px;
+    font-family: Arial;
+    font-size: 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+    border-width: 15px;
+    background-color: yellow;
+    border-color: yellow;
+    float: right;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.img5 {
+    float: right;
+    margin-left: 120px;
+    margin-top: 30px;
+    margin-right: 80px;
+    height: 300px;
+    width: 250px;
+}
+
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+
+.phone {
+    font-size: 15px;
+}
+
+.facebook {
+    font-size: 15px;
+}
+
+.gmail {
+    font-size: 15px;
+}
+
+.banner {
+    margin-top: 0;
+    float: left;
+    height: auto;
+    width: auto;
+}
+
+.contacts {
+    float: left;
+}
+
+.ul {
+    font-weight: bold;
+    color: #fff;
+}
+
+.searchbar {
+    border-color: #000;
+    float: right;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 17px;
+
+}
+
+.home {
+    color: #fff;
+}
+
+
+.dropdown {
+    font-weight: bold;
+    float: right;
+    margin-right: 100px;
+    margin-top: 5px;
+
+    text-align: center;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #000;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.outlined-text {
+    font-size: 40px;
+    text-align: right;
+    margin-right: 40px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(231, 245, 36, 0.781);
+    -webkit-text-stroke: 1px rgb(205, 226, 18);
+    -moz-text-stroke: 1px rgb(224, 55, 3);
+    -webkit-text-fill-color: white;
+    /* Safari*/
+    paint-order: stroke fill;
+}

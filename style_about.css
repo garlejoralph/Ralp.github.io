@@ -1,0 +1,236 @@
+
+body {
+    animation: transitionIn 0.75s;
+    font-family: Arial, sans-serif;
+    margin: 5;
+    padding: 0;
+    background-color: #fff;
+}
+
+@keyframes transitionIn{
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+to {
+    opacity: 1;
+    transform: rotateX(0);
+}
+}
+
+nav {
+    background-color: rgb(212, 4, 4);
+    padding: 35px 0;
+    text-align: center;
+}
+nav a {
+    font-size: 20px;
+    margin: 0 15px;
+    text-decoration: none;
+    color: rgb(41, 6, 6);
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown {
+    font-weight: bold;
+    float: right;
+    margin-right: 100px;
+    margin-top: 5px;
+  
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #000;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover,
+  .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+
+.h1{
+    font-weight: bold;
+    font-size: 50px;
+    background-color: #fff;
+    text-align: center;
+    color: rgb(201, 11, 11);
+}
+
+.h2{
+    text-align: center;
+    color: rgb(212, 4, 4);
+    font-size: 20px;
+}
+
+.p1{
+    margin-left: 50px;
+    font-size: 16px;
+}
+
+.dd{
+    font-size: 16px;
+    font-family: Arial;
+}
+
+.h22{
+    font-size: 30px;
+    color: rgb(212, 4, 4);
+}
+
+.h3{
+    color: rgb(212, 4, 4);
+}
+
+.banner{
+    float: left;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.ban{
+    margin-right: 50px;
+    float: right;
+    position: relative;
+}
+
+.about{
+    color: #fff;
+}
+
+#content{
+    margin-left: 20px;
+    justify-content: space-between;
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-content{
+    margin-left: 2%;
+    cursor: pointer;
+    float: inline-start;
+    line-height: 30px;
+    border: 2px solid yellow;
+    border-width: 7px;
+    border-radius: 10px;
+    display: inline-block; 
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease-in-out, box-shadow 0.3s ease-in-out; 
+}
+
+.div-content:hover{
+    transform: scale(1.1); 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
+    background-color: #fff;
+  }
+
+
+.div-content2{
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    float: left;
+    line-height: 30px;
+    border: 2px solid yellow;
+    border-width: 7px;
+    border-radius: 10px;
+    display: inline-block; 
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: transform 0.5s ease-in-out, box-shadow 0.3s ease-in-out; 
+}
+
+.div-content2:hover{
+    transform: scale(1.1); 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
+    background-color: #fff;
+  }
+
+.div-content3{
+    margin-left: 20px;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    line-height: 30px;
+    border: 2px solid yellow;
+    border-width: 7px;
+    border-radius: 10px;
+    display: inline-block; 
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease-in-out, box-shadow 0.3s ease-in-out; 
+}
+
+.div-content3:hover{
+    transform: scale(1.1); 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
+    background-color: #fff;
+  }
+.div-content4{
+    cursor: pointer;
+    float: bottom;
+    line-height: 30px;
+    border: 2px solid yellow;
+    border-width: 7px;
+    border-radius: 10px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease-in-out, box-shadow 0.3s ease-in-out; 
+}
+
+.div-content4:hover{
+    transform: scale(1.1); 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
+    background-color: #fff;
+  }

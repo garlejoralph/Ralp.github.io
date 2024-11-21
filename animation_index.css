@@ -1,0 +1,17 @@
+#typed-text {
+  float: right;
+  font-size: 47px;
+  font-weight: bold;
+  color: #333;
+  display: inline-block;
+  border-right: 2px solid #333;
+  padding-right: 5px;
+  animation: blink 0.75s step-end infinite; /* Cursor blink animation */
+}
+
+/* Blinking cursor effect */
+@keyframes blink {
+  50% {
+      border-color: transparent;
+  }
+}
